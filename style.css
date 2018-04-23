@@ -1,0 +1,412 @@
+/* Text Handling */
+
+h1,h2,h3,h4,h5,p,a {
+  font-family: Open Sans;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation */
+
+#navbar {
+  height: 62px;
+  max-width: 1400px;
+}
+
+.nav-logo {
+  height: 52px;
+  margin-left: 64px;
+  padding-top: 4px;
+  position: relative;
+}
+
+.nav-link {
+  color: black!important;
+}
+
+.nav-item{
+  margin-left: 24px;
+  font-family: open sans;
+  font-size: 18px;
+  font-weight: light;
+  color: black;
+}
+
+.nav-link:hover {
+  color:  rgba(75,183,85,1)!important;
+}
+
+#grabpay-logo {
+  position: relative;
+  padding-top: 6px;
+}
+
+.nav-divider {
+  border-right: 1px solid rgba(0,0,0,0.3);
+  padding-right: 24px;
+}
+
+.drive-button {
+  border: 2px solid rgba(75,183,85,1);
+  border-radius: 4px;
+  color: rgba(75,183,85,1);
+}
+
+.button-text {
+  color: rgba(75,183,85,1) !important;
+}
+
+
+
+
+
+/* #nav {
+  height: 62px;
+  background-color: white;
+  position: relative;
+  font-family: Open Sans;
+}
+
+.grab-logo {
+  width: 92px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.grabpay-logo {
+  width: 92px;
+  position: absolute;
+  top: 26%;
+  left: 40%;
+}
+
+#nav a {
+  color: black;
+  text-decoration: none;
+}
+
+#nav ul li {
+
+  margin: 15px;
+}
+
+.left-nav {
+  display: inline-block;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.right-nav {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  font-size: 16px;
+  font-weight: 700;
+}
+ */
+
+
+
+/* Banner */
+#banner {
+  height: 660px;
+  background-color: pink;
+  position: relative;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    margin-bottom: 56px;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+
+.carousel-header {
+  text-align: left;
+  font-size: 36pt;
+  font-weight: bold;
+  position: relative;
+  bottom: 200px;
+
+}
+
+.carousel-text {
+  text-align: left;
+  font-size: 22px;
+  font-weight: regular;
+  position: relative;
+  bottom: 200px;
+
+}
+
+
+.carousel-btn {
+  position: relative;
+  text-align: left;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  float: left;
+  bottom: 190px;
+  padding: 12px;
+  background-color: rgba(75,183,85,1);
+  border-radius: 4;
+
+}
+
+.carousel-btn:hover {
+  box-shadow: 2px 5px rgba(75,183,85,0.6)
+}
+
+
+
+/* How Grab Works */
+
+
+#grab-works {
+  height: 790px;
+  background-color: white;
+  position: relative;
+}
+
+#grab-works h2 {
+  color: rgba(75,183,85,1);
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 48px;
+}
+
+#grab-works h5 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  top: 56px;
+}
+
+.grab-works-body {
+  width: 80%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+#grab-works img {
+  float: left;
+  width: 400px;
+  margin-left: 220px;
+  margin-top: 135px;
+
+}
+
+.grab-process {
+  position: relative;
+  float: right;
+  width: 450px;
+  margin-right: 240px;
+  margin-top: -800px;
+  z-index: 3;
+}
+
+#grab-works ol {
+  margin: 0;
+  position: relative;
+  margin-right: 160px;
+  margin-top: -540px;
+
+}
+
+#grab-works li {
+  list-style-type: circle;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#grab-process h4 {
+  display: inline-block;
+  float: left;
+}
+
+#grab-process h5 {
+  display: inline-block;
+}
+
+/* CTA */
+
+
+#cta {
+  height: 390px;
+  background-color: #42A44D;
+  position: relative;
+}
+
+#cta-body {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+}
+
+#cta-body h2 {
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 96px;
+  left: 670px;
+  width: 575px;
+}
+
+.learn {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(75,183,85,1);
+  font-weight: bold;
+  padding: 12px;
+  background-color: white;
+  border-radius: 4;
+  margin: 36px auto;
+}
+
+
+
+/* Freedom */
+
+
+#freedom {
+  height: 760px;
+  background: url('assets/bike-2-2.jpg');
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.freedom-header {
+  text-align: center;
+  position: relative;
+  color: white;
+  font-size: 42px;
+  margin-top: 72px;
+}
+
+.freedom-body {
+  text-align: center;
+  position: relative;
+  color: white;
+  font-size: 18px;
+  margin-top: 48px;
+}
+
+.card {
+  position: relative;
+  float: left;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 2px;
+  width: 310px;
+  margin-left: 24px;
+  color: white;
+}
+
+.card-img-top {
+  width: 100px;
+  margin-left: 6px;
+}
+
+.card-deck {
+  margin: 48px;
+  margin-top: 98px;
+}
+
+.card-btn {
+  background-color: rgba(75,183,85,1);
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
+
+
+#latest-news {
+  height: 750px;
+  background-color: white;
+  position: relative;
+}
+
+#footer {
+  height: 96px;
+  background-color: black;
+  position: relative;
+}
+
+.social-icons {
+  text-align: center;
+  padding-top: 24px;
+}
+
+.ion-social-facebook {
+  font-size: 26px;
+  color: white;
+  padding: 24px;
+}
+
+
+.ion-social-twitter {
+  font-size: 26px;
+  color: white;
+  padding: 24px;
+}
+
+
+.ion-social-instagram {
+  font-size: 26px;
+  color: white;
+  padding: 24px;
+}
+
+
+
+.ion-social-facebook:hover {
+  font-size: 26px;
+  color: rgba(75,183,85,1);
+  padding: 24px;
+}
+
+
+.ion-social-twitter:hover {
+  font-size: 26px;
+  color: rgba(75,183,85,1);
+  padding: 24px;
+}
+
+.ion-social-instagram:hover {
+  font-size: 26px;
+  color: rgba(75,183,85,1);
+  padding: 24px;
+}
